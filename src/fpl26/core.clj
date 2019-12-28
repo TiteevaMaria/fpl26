@@ -1,35 +1,29 @@
 (ns fpl26.core)
-(require '[clojure.core.async :as async :refer [<! >! go go-loop chan]])
-
-(defn v [n r]
-  (take n (repeatedly #(rand-int r))))
+(require '[clojure.core.async :as async :refer [<! >! go go-loop chan >!!]])
 
 (defn cv [n]
   (take n (repeatedly #(async/chan 10))))
 
-(def ar (v 10 50))
-(println ar)
-
 (def ich (async/chan 10))
-(async/onto-chan ich ar)
 
 (defn solve [chan n]
-  (let [out (reduce conj [](cv n))]
+  (let [out (reduce conj [] (cv n))]
     (async/go-loop []
       (when-some [val (<! chan)]
-        (println val "mod " n " = " (mod val n))
         (>! (out (mod val n)) val)
+        (println "Число " val " записано в канал для остатка " (mod val n))
         (recur)))
     out))
 
-(def outs (solve ich 4))
+(def outs (solve ich 10))
 
 (defn post [f]
   (print "Chan: ")
-  (async/go-loop []
-    (when-some [val (<! f)]
-      (print val "; ")
-      (recur))))
+  (go (loop [to (async/timeout 100)]
+        (async/alt!
+          to ()
+          f ([val] (print val "; ")
+             (recur (async/timeout 100)))))))
 
 (defn res [outs]
   (Thread/sleep 500)
@@ -38,4 +32,5 @@
     (post val)
     (recur (rest outs))))
 
-(res outs)
+
+

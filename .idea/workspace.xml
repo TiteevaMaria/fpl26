@@ -10,6 +10,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -23,9 +26,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fplab1_3-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1577362436106">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1577570544075">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <module name="fpl26" />
@@ -87,6 +90,9 @@
       <workItem from="1577327488113" duration="49000" />
       <workItem from="1577351330541" duration="10466000" />
       <workItem from="1577362273107" duration="163000" />
+      <workItem from="1577562935173" duration="7144000" />
+      <workItem from="1577570254574" duration="158000" />
+      <workItem from="1577570460436" duration="84000" />
     </task>
     <servers />
   </component>
@@ -102,9 +108,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="282" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1577356722162" />
-    <state x="388" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1577351374231">
+    <state x="388" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1577570461913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="388" y="351" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577351374231" />
+    <state x="388" y="351" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577570461913" />
   </component>
 </project>
