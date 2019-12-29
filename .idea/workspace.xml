@@ -28,7 +28,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1577570544075">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1577632092924">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <module name="fpl26" />
@@ -93,6 +93,7 @@
       <workItem from="1577562935173" duration="7144000" />
       <workItem from="1577570254574" duration="158000" />
       <workItem from="1577570460436" duration="84000" />
+      <workItem from="1577628487066" duration="3575000" />
     </task>
     <servers />
   </component>
@@ -108,9 +109,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="460" y="282" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1577356722162" />
-    <state x="388" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1577570461913">
+    <state x="388" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1577628490529">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="388" y="351" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577570461913" />
+    <state x="388" y="351" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577628490529" />
   </component>
 </project>
